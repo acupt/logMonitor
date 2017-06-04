@@ -47,11 +47,11 @@
         <td><input id="mail" type="text" value="<%=notifyConf.getMail()%>" style="width: 100%" "></td>
     </tr>
     <tr>
-        <td>邮件报警</td>
+        <td>短信报警</td>
         <td><input id="smsNotify" type="checkbox" <%=notifyConf.isSmsNotify()?"checked":""%>></td>
     </tr>
     <tr>
-        <td>报警邮箱</td>
+        <td>手机号码</td>
         <td><input id="mobile" type="text" value="<%=notifyConf.getMobile()%>" style="width: 100%" "></td>
     </tr>
     <tr>
